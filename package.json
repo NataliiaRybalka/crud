@@ -2,7 +2,7 @@
 	"name": "server",
 	"version": "1.0.0",
 	"description": "Electronic Diary Server",
-	"main": "index.js",
+	"main": "index.ts",
 	"scripts": {
 		"start": "NODE_PATH=./build node build/index.js",
 		"build": "tsc -p .",
